@@ -14,14 +14,20 @@ header{
 #menu1{
 	color:#66c2ff;
 	background:#004080;
-	padding-top:15px;
-	padding-bottom:15px;
+	padding-top:10px;
+	padding-bottom:10px;
 	opacity:0.5;
+	margin:0px;
 }
 
 #menu2{
 	color:#66c2ff;
 	background:#001a33;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:40px;
+	opacity:0.5;
+	margin:0px;
 }
 header>img{
 	position:absolute;
@@ -40,10 +46,32 @@ header>img{
 .ventana{
 	position:absolute;
 	opacity:0.5;
-	background:blue;
+	background:#00264d;
 }
 #menu1>h1{
 	margin:15px;
 	font-size:16px;
 	display:inline;
 }
+#menu2>h2{
+	margin:15px;
+	font-size:12px;
+	display:inline;
+}
+#principal>h1{
+	font-size:19px;
+	color:white;
+}
+#buj{
+	display:inline;
+}
+h3{
+	display:inline;
+}
+.der{
+	float:right;
+}
+
+
+
+	
