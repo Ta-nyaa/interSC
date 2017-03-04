@@ -1,77 +1,134 @@
 body{
-	position:absolute;
-	background: url(fondo.jpg);
-	margin:0px;
-	top:0px;
-	bottom:0px;
-	left:0px;
-	right:0px;
+	background-image:url(fondo.jpg);
 }
 header{
 	position:relative;
-	margin-top:0px;
+	width:100%;
+	height:100px;
+}
+#im{
+	position:absolute;
 }
 #menu1{
-	color:#66c2ff;
-	background:#004080;
-	padding-top:10px;
-	padding-bottom:10px;
-	opacity:0.5;
-	margin:0px;
+	background:rgba(0, 51, 102,0.5);
 }
-
 #menu2{
-	color:#66c2ff;
-	background:#001a33;
-	padding-top:5px;
-	padding-bottom:5px;
-	padding-left:40px;
-	opacity:0.5;
-	margin:0px;
+	background:rgba(0, 26, 51,0.5);
 }
-header>img{
+#cara{
 	position:absolute;
-	top:10px;
-	right:20px;
-	border:#0066cc;
 }
 #principal{
-	border:dotted 1px red;
 	position:absolute;
-	top:75px;
-	bottom:20px;
-	left:50px;
+	left:40px;
 	right:350px;
-}
-.ventana{
-	position:absolute;
-	opacity:0.5;
-	background:#00264d;
-}
-#menu1>h1{
-	margin:15px;
-	font-size:16px;
-	display:inline;
-}
-#menu2>h2{
-	margin:15px;
-	font-size:12px;
-	display:inline;
-}
-#principal>h1{
-	font-size:19px;
-	color:white;
-}
-#buj{
-	display:inline;
-}
-h3{
-	display:inline;
+	top:50px;
+	bottom:100px;
 }
 .der{
 	float:right;
 }
+.izq{
+	float:left;
+}
+#principal>h1{
+	font-size:16px;
+	color:white;
+	display:inline;
+}
+#principal>img{
+	display:inline;
+	border-color:rgb(0,51,102);
+}
+#principal>form{
+	display:inline;
+}
+#vizq{
+	background:rgba(0,51,102,0.4);
+	position:absolute;
+}
+#lista{
+	position:absolute;
+	left:40px;
+	right:800px;
+	top:80px;
+	bottom:100px;
+	}
+#lista>p{
+	font-size:13px;
+	color:white;
+	display:inline;
+	background:rgba(0, 51, 102,0.7);
+}
+#lista>form{
+	display:inline;
+}
+.juego{
+	background:rgba(0, 26, 51,0.5);
+	position:absolute;
+}
+.juego>img{
+	display:inline;
+}
+.juego>p{
+	display:inline;
+	color:white;
+	font-size:10px;
+}
+#previa{
+	position:absolute;
+	left:500px;
+	right:600px;
+	top:80px;
+	bottom:100px;
+}
+#previa>p{
+	font-size:13px;
+	color:white;
+	display:inline;
+	background:rgba(0, 51, 102,0.7);
+}
+#previa>img{
+	display:inline;
+}
+#previa>h1{
+	font-size:15px;
+	color:white;
+}
+#previa>h2{
+	font-size:11px;
+	color:blue;
+}
+#previa>p{
+	font-size:10px;
+	color:white;
+}
+#vder{
+	position:absolute;
+	background:rgba(0,51,102,0.4);
+}
+#vder>p{
+	display:inline;
+	font-size:13px;
+	color:white;
+}
+#vder>img{
+	position:absolute;
+}
+#logo{
+	color:white;
+}
+#logo>img{
+	position:absolute;
+	display:inline;
+}
+#logo>h1{
+	font-size:20px;
+	display:inline;
+	color:white;
+}
+#logo>p{
+	font-size:11px;
+	color:white;
+}
 
-
-
-	
