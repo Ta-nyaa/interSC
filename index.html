@@ -1,108 +1,127 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html>
+
 <head>
-<link type="text/css" rel="stylesheet" href="style.css">
 <title> InterSC</title>
+<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
 <header>
+	<img src="im.png" id="im">
 	<div id="menu1">
-		<img src="">
-		<h1>CAMPAÑA</h1>
-		<h1>CO-OP</h1>
-		<h1>MULTIPLAYER</h1>
-		<h1>ARCADE</h1>
-		<h1>COLECCIÓN</h1>
-		<h1>REPETICIÓNES</h1>
+		<p>CAMPAÑA</p>
+		<p>CO-OP</p>
+		<p>MULTIPLAYER</p>
+		<p>ARCADE</p>
+		<p>COLLECTION</p>
+		<p>REPLAYS</p>
 	</div>
 	<div id="menu2">
-		<h2>Entrar</h2>
-		<h2>Buscar</h2>
+		<p>JOIN</p>
+		<p>BROWSE</p>
 	</div>
-	<img src="">
+	<img src="cara.png" id="cara">
 </header>
 
-
 <div id="principal">
-	<h1>JUEGOS ABIERTOS</h1>
-	<img src="">
-	<form>
-		<input type="text" placeholder="Busca un juego">
-	</form>
-
-	<div class="ventana">
-		<div id="listajuegos">
-			<h3>Nombre</h3><h3>Modo</h3>
-			<form>
-				<input type="text" placeholder="Busca en juegos abiertos">
+	<h1 class="izq">OPEN GAMES</h1>
+	<img src="" class="izq">
+	<form class="der">
+		<input type="text" placeholder="Search for a game">
+	</form> 
+	<div id="vizq">
+		<div id="lista">
+			<p class="izq">Name</p>
+			<p class="der">Mode</p>
+			<form> 
+				<input type="text" placeholder="Search for an open game">
 			</form>
+			<div class="juego">
+				<img src="juego.png">
+				<p class="der">Diablo</p>
+				<p class="izq">Hack'n Slash</p>
+			</div>
+			<div class="juego">
+				<img src="juego.png">
+				<p class="der">Skyrim</p>
+				<p class="izq">RPG</p>
+			</div>
+			<div class="juego">
+				<img src="juego.png">
+				<p class="der">BroodWar</p>
+				<p class="izq">RTS</p>
+			</div>
+			<div class="juego">
+				<img src="juego.png">
+				<p class="der">Lol Or Lie</p>
+				<p class="izq">Hide 'n Seek</p>
+			</div>
+			<div class="juego">
+				<img src="juego.png">
+				<p class="der">Skybound</p>
+				<p class="izq">FreeForAll</p>
+			</div>
+			<div class="juego">
+				<img src="juego.png">
+				<p class="der">SmashBros</p>
+				<p class="izq">RunorDie</p>
+			</div>
+			<div class="juego">
+				<img src="juego.png">
+				<p class="der">Grandma Prix</p>
+				<p class="izq">Shooter</p>
+			</div>
+			<div class="juego">
+				<img src="juego.png">
+				<p class="der">Fastest game ever</p>
+				<p class="izq">Turn based 5X</p>
+			</div>
+			<div class="juego">
+				<img src="juego.png">
+				<p class="der">RPGWorld</p>
+				<p class="izq">Shoot'Em'all</p>
+			</div>
+			<div class="juego">
+				<img src="juego.png">
+				<p class="der">Jesus the savior</p>
+				<p class="izq">Satanic</p>
+			</div>
+			<div class="juego">
+				<img src="juego.png">
+				<p class="der">CocaCola</p>
+				<p class="izq">Fat'emall</p>
+			</div>
 
-			<!--Aqui cada item en la lista de juegos, son 11 -->
-			<div class="juego">
-				<img src="">
-				<p class="nombre">Galaxy Vampirism</p> <p class="modo">Estrategia</p>
-			</div>
-			<div class="juego">
-				<img src="">
-				<p class="nombre">Galaxy Vampirism</p> <p class="modo">Estrategia</p>
-			</div>
-			<div class="juego">
-				<img src="">
-				<p class="nombre">Galaxy Vampirism</p> <p class="modo">Estrategia</p>
-			</div>
-			<div class="juego">
-				<img src="">
-				<p class="nombre">Galaxy Vampirism</p> <p class="modo">Estrategia</p>
-			</div>
-			<div class="juego">
-				<img src="">
-				<p class="nombre">Galaxy Vampirism</p> <p class="modo">Estrategia</p>
-			</div>
-			<div class="juego">
-				<img src="">
-				<p class="nombre">Galaxy Vampirism</p> <p class="modo">Estrategia</p>
-			</div>
-			<div class="juego">
-				<img src="">
-				<p class="nombre">Galaxy Vampirism</p> <p class="modo">Estrategia</p>
-			</div>
-			<div class="juego">
-				<img src="">
-				<p class="nombre">Galaxy Vampirism</p> <p class="modo">Estrategia</p>
-			</div>
-			<div class="juego">
-				<img src="">
-				<p class="nombre">Galaxy Vampirism</p> <p class="modo">Estrategia</p>
-			</div>
-			<div class="juego">
-				<img src="">
-				<p class="nombre">Galaxy Vampirism</p> <p class="modo">Estrategia</p>
-			</div>
-			<div class="juego">
-				<img src="">
-				<p class="nombre">Galaxy Vampirism</p> <p class="modo">Estrategia</p>
-			</div>
 		</div>
-		<div id="vistarapida">
-			<h2>El juego de Drawon Wall</h2>
-			<p>AkiroTorijama</p>
-			<p>11 players</p>
-			<p>estrellaslol</p>
-			<p>Tipo normal</p>
-			<p>394 votoas</p>
-			<p>Otros</p>
-			<p>Este es un juego hecvho para joder a todos :D:D:D:D:D:D LOL ROLFMAOXYZ</p>
+		<div id="previa">
+			<p>INFO</p>
+			<img src="info.jpg">
+			<h1>-Mafia- v1.834</h1>
+			<h2>The-JdOp</h2>
+			<h2>8 players</h2>
+			<h2>8 stars</h2>
+			<h2>Custom</h2>
+			<h2>1200947 ratings</h2>
+			<h2>Other</h2>
+			<p>Es el juego que viene, para todos desde norteamerica LOL aqui una descripcion breve, pika el boton de abajo para cambiar el FONDO LOL  TROLOLOLOLOL ROLFMAOXYZ xD brlbrlbrlbrlbrlbrlbrlbrlbrbrlbrl</p>
 		</div>
 	</div>
-
-
-	<div class="ventana">
-
+	<div id="vder">
+		<p></p>
+		<img src="info.jpg" id="grandeimg">
+		<img src="chicaimg1.jpg" class="chicaimg">
+		<img src="chicaimg2.jpg" class="chicaimg">
+		<img src="chicaimg3.jpg" class="chicaimg">
+		<img src="chicaimg4.jpg" class="chicaimg">
+		<img src="chicaimg5.jpg" class="chicaimg">
 	</div>
-
-
+	<div id="logo">
+		<img src="lock.png"><h1>ARCADE</h1>
+		<p>EXPERIENCE THOUSANDS OF NEW GAMES CREATED BY THE BLIZZARD COMMUNITY</p>
+	</div>
+	<button id="b1">JOIN GAME</button>
+	<button id="b2">GAME INFO</button>
 </div>
 </body>
 
