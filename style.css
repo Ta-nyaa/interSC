@@ -1,12 +1,14 @@
 body{
 	background-image:url(fondo.jpg);
 	margin:0px;
+	background-size: cover;
 }
 header{
 	position:absolute;
 	top:0px;
-	width:100%;
-	height:125px;
+	right:0;
+	left:0;
+	bottom:90%;
 }
 #im{
 	position:absolute;
@@ -15,9 +17,13 @@ header{
 }
 #menu1{
 	background:rgba(0, 51, 102,0.5);
-	position:relative;
-	padding:15px;
-	padding-left:50px;
+	position:absolute;
+	padding:1%;
+	padding-left:4.7%;
+	top:0;
+	right:0px;
+	bottom:42%;
+	left:0px;
 }
 #menu1>p{
 	display:inline;
@@ -28,14 +34,18 @@ header{
 #menu2{
 	background:rgba(0, 26, 51,0.5);
 	position:relative;
-	padding:10px;
-	padding-left:50px;
+	padding:.6%;
+	padding-left:4.7%;
+	top:58%;
+	right:0px;
+	bottom:0px;
+	left:0px;
 }
 #menu2>p{
 	display:inline;
 	font-size:1em;
 	color:white;
-	margin:25px;
+	padding:.8%;
 }
 #cara{
 	position:absolute;
@@ -45,10 +55,10 @@ header{
 }
 #principal{
 	position:absolute;
-	left:70px;
-	right:25%;
-	top:120px;
-	bottom:85px;
+	left:5%;
+	right:18%;
+	top:12%;
+	bottom:11%;
 }
 .der{
 	float:right;
@@ -71,30 +81,40 @@ header{
 }
 #principal>form{
 	display:inline;
+	position:absolute;
+	top:2.1%;
+	right:2.6%;
+	bottom:92.4%;
+	left:72.4%;
 }
 #principal>form>input{
 	background:rgba(0, 26, 51,0.5);
 	border:rgb(0,51,102) solid 2px;
 	color:white;
 	font-size:1.1em;
+	position: absolute;
+	width:100%;
+	top:0;
+	bottom:0;
+
 }
 #vizq{
 	background:rgba(0,51,102,0.4);
 	position:absolute;
-	top:50px;
-	right:40%;
-	bottom:100px;
-	left:0px;
-	border:rgba(0,51,102,0.5) solid 3px;
+	top:9.6%;
+	right:37%;
+	bottom:12%;
+	left:0.5%;
+	border:rgba(0,51,102,0.5) solid 1px;
 }
 #lista{
 	position:absolute;
-	left:4px;
-	right:40%;
-	top:4px;
-	bottom:4px;
+	left:1%;
+	right:42%;
+	top:1%;
+	bottom:1%;
 	border:rgba(0,51,102,0.5) solid 3px;
-	}
+}
 #lista>p{
 	font-size:16px;
 	color:white;
@@ -118,7 +138,7 @@ header{
 	background:rgba(0, 26, 51,0.5);
 	position:relative;
 	margin:2px 0px 2px 0px;
-overflow: auto;
+	overflow: auto;
 }
 .juego>img{
 	display:inline;
@@ -142,10 +162,10 @@ overflow: auto;
 }
 #previa{
 	position:absolute;
-	left:62%;
-	right:4px;
-	top:4px;
-	bottom:4px;
+	left:59%;
+	right:1%;
+	top:1%;
+	bottom:1%;
 }	
 #previa>p{
 	font-size:19px;
@@ -175,10 +195,10 @@ overflow: auto;
 #vder{
 	position:absolute;
 	background:rgba(0,51,102,0.4);
-	right:0px;
-	top:50px;
-	bottom:40%;
-	left:61%;
+	right:2.1%;
+	top:9.7%;
+	bottom:34.6%;
+	left:65%;
 	border:rgba(0,51,102,0.5) solid 3px;
 }
 #vder>p{
@@ -199,10 +219,10 @@ overflow: auto;
 #logo{
 	position:absolute;
 	color:white;
-	right:0px;
-	left:61%;
-	top:62%;
-	bottom:100px;
+	right:1%;
+	left:64%;
+	top:67%;
+	bottom:12%;
 }
 #logo>img{
 	position:relative;
@@ -225,42 +245,42 @@ overflow: auto;
 }
 #b1{
 	position:absolute;
-	bottom:0px;
-	left:0px;
-	width:250px;
+	bottom:1%;
+	left:20%;
+	width:18%;
 	text-align:center;
 	background:rgb(204, 102, 0);
 	color:white;
 	font-size:15px;
-	height:40px;
+	height:6%;
 }
 #b2{
 	position:absolute;
-	bottom:0px;
-	left:260px;
-	width:250px;
+	bottom:1%;
+	left:1%;
+	width:18%;
 	text-align:center;
 	background:rgb(0, 0, 102);
 	color:white;
 	font-size:15px;
-	height:40px;
+	height:6%;
 }
 #listajuegos{
-position:absolute;
-top:52px;
-right:0px;
-bottom: 0px;
-left:0px;
-overflow:auto;
+	position:absolute;
+	top:12%;
+	right:1%;
+	bottom: 0px;
+	left:0px;
+	overflow:auto;
 }
-	
+
 #listajuegos::-webkit-scrollbar{
-background-color: rgba(200,200,200,0);
-width:8px
+	background-color: rgba(200,200,200,0);
+	width:6px
 }
 
 #listajuegos::-webkit-scrollbar-thumb{
-background-color:#7398BE;
+	background-color:#7398BE;
 }
 
 
