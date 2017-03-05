@@ -22,7 +22,7 @@ header{
 #menu1>p{
 	display:inline;
 	font-size:1.3em;
-	color:white;
+	color:#CFE1F5;
 	margin:30px;
 }
 #menu2{
@@ -118,6 +118,7 @@ header{
 	background:rgba(0, 26, 51,0.5);
 	position:relative;
 	margin:2px 0px 2px 0px;
+overflow: auto;
 }
 .juego>img{
 	display:inline;
@@ -244,4 +245,24 @@ header{
 	font-size:15px;
 	height:40px;
 }
+#listajuegos{
+position:absolute;
+top:52px;
+right:0px;
+bottom: 0px;
+left:0px;
+overflow:auto;
+}
 	
+#listajuegos::-webkit-scrollbar{
+background-color: rgba(200,200,200,0);
+width:8px
+}
+
+#listajuegos::-webkit-scrollbar-thumb{
+background-color:#7398BE;
+}
+
+
+
+
